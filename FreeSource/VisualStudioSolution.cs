@@ -88,10 +88,12 @@ namespace FreeSource
                 string[] assignment = line.Split('=');
                 if (assignment.Length == 2)
                 {
-                    int identifierStartIndex = assignment[0].IndexOf('{');
+                    int identifierStartIndex = assignment[0].IndexOf('{') + 1;
                     int identifierEndIndex = assignment[0].LastIndexOf('}');
+                    int identifierLength = identifierEndIndex - identifierStartIndex;
+                    string identifier = assignment[0].Substring(identifierStartIndex, identifierLength);
 
-                    if (!this.ParseIdentifier(assignment[0].Substring(identifierStartIndex + 1, (identifierEndIndex - identifierStartIndex) - 1)))
+                    if (!this.ParseIdentifier(identifier))
                     {
                         throw new FormatException("The project declaration is not of a supported format.");
                     }
