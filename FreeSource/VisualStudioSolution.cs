@@ -53,6 +53,11 @@ namespace FreeSource
                 {
                     continue;
                 }
+
+                if (this.ParseProjectDeclaration(line))
+                {
+                    continue;
+                }
             }
         }
         
@@ -86,7 +91,7 @@ namespace FreeSource
                     int identifierStartIndex = assignment[0].IndexOf('{');
                     int identifierEndIndex = assignment[0].LastIndexOf('}');
 
-                    if (!this.ParseIdentifier(assignment[0].Substring(identifierStartIndex, (identifierEndIndex - identifierStartIndex))))
+                    if (!this.ParseIdentifier(assignment[0].Substring(identifierStartIndex + 1, (identifierEndIndex - identifierStartIndex) - 1)))
                     {
                         throw new FormatException("The project declaration is not of a supported format.");
                     }
