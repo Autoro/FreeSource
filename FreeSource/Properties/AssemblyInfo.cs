@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: CLSCompliant(true)]
@@ -8,7 +7,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("An application which adds any open source initiative approved license to your source files.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("EmitCode Corporation")]
-[assembly: AssemblyProduct("FreeSource")]
+[assembly: AssemblyProduct("Free Source")]
 [assembly: AssemblyCopyright("Copyright © EmitCode Corporation 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace FreeSource
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] arguments)
         {
+            arguments = new string[1] { "Test.txt" };
+
+            VisualStudioSolution solution = new VisualStudioSolution(arguments[0]);
         }
     }
 }
