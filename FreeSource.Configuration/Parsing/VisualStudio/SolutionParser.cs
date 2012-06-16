@@ -27,13 +27,10 @@
 
 using System;
 
-namespace FreeSource
+namespace FreeSource.Configuration.Parsing.VisualStudio
 {
-    internal static class Program
+    public sealed class SolutionParser
     {
-        private static void Main(string[] arguments)
-        {
-            arguments = new string[1] { "Test.sln" };
-        }
+
     }
 }

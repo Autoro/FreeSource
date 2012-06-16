@@ -25,15 +25,12 @@
 
 #endregion
 
-using System;
-
-namespace FreeSource
+namespace FreeSource.Extensibility
 {
-    internal static class Program
+    public enum ProjectType
     {
-        private static void Main(string[] arguments)
-        {
-            arguments = new string[1] { "Test.sln" };
-        }
+        Unspecified = 0,
+        Executable,
+        Library,
     }
 }

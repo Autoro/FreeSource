@@ -25,15 +25,77 @@
 
 #endregion
 
-using System;
-
-namespace FreeSource
+namespace FreeSource.Extensibility
 {
-    internal static class Program
+    public enum SourceLanguage
     {
-        private static void Main(string[] arguments)
-        {
-            arguments = new string[1] { "Test.sln" };
-        }
-    }
+        Axiom,
+        ActionScript,
+        Ada,
+        AppleScript,
+        Assembly,
+        AutoIt,
+        Axum,
+        Bash,
+        Basic,
+        Batch,
+        C,
+        CMinusMinus,
+        CPlusPlus,
+        CSharp,
+        Chapel,
+        Clojure,
+        Cobol,
+        ColdFusion,
+        Cil,
+        Curl,
+        D,
+        Delphi,
+        FSharp,
+        Forth,
+        Fortran,
+        FoxPro,
+        GameMaker,
+        GlSl,
+        Go,
+        Haskell,
+        HlSl,
+        Html,
+        Java,
+        JavaScript,
+        LaTeX,
+        Lisp,
+        Logo,
+        Lua,
+        Make,
+        Mathematica,
+        MatLab,
+        MaxScript,
+        Maya,
+        Nsis,
+        ObjectiveC,
+        OCaml,
+        Perl,
+        Php,
+        PostScript,
+        Python,
+        Ruby,
+        Scala,
+        Scheme,
+        Sed,
+        Smalltalk,
+        Sql,
+        Tcl,
+        TeX,
+        Unity,
+        UnrealScript,
+        Vala,
+        Vba,
+        VbScript,
+        Verilog,
+        Vhdl,
+        VisualBasic,
+        Xlst,
+        Xml
+    };
 }
