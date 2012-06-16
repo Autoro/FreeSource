@@ -26,14 +26,21 @@
 #endregion
 
 using System;
+using System.Reflection;
+using System.Runtime.InteropServices;
 
-namespace FreeSource
-{
-    internal static class Program
-    {
-        private static void Main(string[] arguments)
-        {
-            arguments = new string[1] { "Test.sln" };
-        }
-    }
-}
+[assembly: CLSCompliant(true)]
+[assembly: AssemblyTitle("FreeSource.Extensibility")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("EmitCode Corporation")]
+[assembly: AssemblyProduct("FreeSource.Extensibility")]
+[assembly: AssemblyCopyright("Copyright © EmitCode Corporation 2012")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+[assembly: ComVisible(false)]
+[assembly: Guid("c42e1998-3e4a-4505-951f-449c5c2d0997")]
+
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

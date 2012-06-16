@@ -25,15 +25,14 @@
 
 #endregion
 
-using System;
-
-namespace FreeSource
+using System.IO;
+namespace FreeSource.Extensibility
 {
-    internal static class Program
+    public interface ISourceFile
     {
-        private static void Main(string[] arguments)
+        FileInfo Path
         {
-            arguments = new string[1] { "Test.sln" };
+            get;
         }
     }
 }

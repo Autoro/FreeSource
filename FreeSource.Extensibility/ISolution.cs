@@ -25,15 +25,17 @@
 
 #endregion
 
-using System;
+using System.Collections.Generic;
 
-namespace FreeSource
+namespace FreeSource.Extensibility
 {
-    internal static class Program
+    public interface ISolution
     {
-        private static void Main(string[] arguments)
+        string Name
         {
-            arguments = new string[1] { "Test.sln" };
+            get;
         }
+
+        IEnumerable<IProject> GetProjects();
     }
 }
