@@ -37,6 +37,6 @@ namespace FreeSource.Extensibility
             get;
         }
 
-        IEnumerable<FileInfo> GetSourceFiles();
+        IEnumerable<ISourceFile> GetSourceFiles();
     }
 }

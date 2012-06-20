@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSource", "FreeSource\Fr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSource.Extensibility", "FreeSource.Extensibility\FreeSource.Extensibility.csproj", "{B97DF479-85BE-42D4-90BD-D60A6B2C2FE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSource.VisualStudio", "FreeSource.VisualStudio\FreeSource.VisualStudio.csproj", "{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{B97DF479-85BE-42D4-90BD-D60A6B2C2FE5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B97DF479-85BE-42D4-90BD-D60A6B2C2FE5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B97DF479-85BE-42D4-90BD-D60A6B2C2FE5}.Release|x86.ActiveCfg = Release|Any CPU
+		{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FB7B6300-2319-4A27-9AFD-CBD7DFC4E33E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
